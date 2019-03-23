@@ -34,14 +34,14 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "now-build": "npm run build",
-    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) duobe.io",
+    "deploy": "yarn build && cp now.json public/ && cd public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Duobe/sower.io.git"
+    "url": "git+https://github.com/Duobe/duobe.io.git"
   },
   "bugs": {
-    "url": "https://github.com/Duobe/sower.io/issues"
+    "url": "https://github.com/Duobe/duobe.io/issues"
   }
 }
