@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "sower.io",
-  "alias": "sower.io",
+  "name": "duobe.io",
+  "alias": "duobe.io",
   "builds": [
     {
       "use": "@now/static-build",
