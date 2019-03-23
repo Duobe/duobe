@@ -26,11 +26,15 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "serve": "gatsby serve",
     "develop": "gatsby develop",
+    "build": "gatsby build",
+    "rebuild": "rm -rf public && rm -rf .cache && npm run build",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
-    "serve": "gatsby serve",
+    "now-build": "npm run build",
+    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) sower.io",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
