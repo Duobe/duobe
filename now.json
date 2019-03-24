@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "name": "duobe",
-  "alias": "duobe.now.sh",
+  "name": "blog",
   "builds": [
     {
       "use": "@now/static-build",
