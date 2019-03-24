@@ -1,5 +1,5 @@
 {
-  "name": "duobe.io",
+  "name": "duobe",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
@@ -34,14 +34,14 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "now-build": "npm run build",
-    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) duobe.io",
+    "deploy": "yarn build && cp now.json public/ && cd public && now alias $(now) duobe",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Duobe/duobe.io.git"
+    "url": "git+https://github.com/Duobe/duobe.git"
   },
   "bugs": {
-    "url": "https://github.com/Duobe/duobe.io/issues"
+    "url": "https://github.com/Duobe/duobe/issues"
   }
 }
