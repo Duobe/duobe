@@ -34,7 +34,6 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "now-build": "npm run build",
-    "deploy": "yarn build && && cp now.json public/ && cd public && now alias $(now) duobe.now.sh",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {
