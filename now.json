@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "duobe",
+  "alias": "fennie",
   "builds": [
     {
       "use": "@now/static-build",
