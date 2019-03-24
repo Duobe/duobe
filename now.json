@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name": "duobe.io",
   "builds": [
     {
       "use": "@now/static-build",
