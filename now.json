@@ -1,6 +1,10 @@
 {
   "version": 2,
   "name": "duobe",
+  "type": "static",
+  "static": {
+    "public": "public"
+  },
   "alias": "duobe.now.sh",
   "builds": [
     {
